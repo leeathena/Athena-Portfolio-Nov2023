@@ -8,7 +8,6 @@ body{
     font-size: 16px;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
     justify-content: flex-start;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: var(--light-beige);
@@ -33,7 +32,7 @@ nav {
 nav a {
     color: var(--dark-green);
     padding: 14px 20px;
-    text-decoration: none;
+    text-decoration:none;
     text-align: center;
   }
 
@@ -42,11 +41,11 @@ nav a:hover {
   }
 
 
-.about-me {
+#about-me {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-inline: 50px;
+    padding: 0px;
     width: 1024px;
     margin: 20px auto;
 }
@@ -79,19 +78,18 @@ h3 {
 }
 
 
-.work {
+#work {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding-inline: 50px;
+    padding: 0px;
     width: 1024px;
     margin: 20px auto;
-    /*background: var(--medium-green) 50%, var(--light-beige) 50% ;*/
 }
 
 #work-decor {
     width: 310px;
-    margin: 50px
+    margin: 0px 50px 0px 50px;
 }
 
 
@@ -131,40 +129,40 @@ h3 {
     object-fit: cover;
 }
 
-.work-grid header{
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    color: white;
-    font-size: 1.5rem;
+.work-grid section {
+    position:relative
 }
 
-.contact {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding-inline: 50px;
-    margin: 20px auto;
+.work-grid header{
+    position: absolute;
+    top: 50%; 
+    color: white;
+    font-size: 1.5rem;
+
 }
+
+
 
 h4 {
     font-size: 1.5rem;
     text-decoration: underline;
     text-decoration-thickness: 10px;
+    text-align: center;
     text-decoration-color: var(--medium-green);
-    padding-top:100px;
+    padding:100px;
     line-height: 2.5;
+    padding-bottom: 20px;
 }
 
-ul{
-font-size: 1.5rem;
-text-decoration: none;
-line-height: 2rem;
-text-align: center;
-text-decoration-color: var(--dark-green);
+
+.contact-info{
+display: flex;
+justify-content:center;
+align-items: flex-start;
 }
 
-.contact-info img{
-    height: 50px;
-    width: 50px;
+.contact-info img {
+height: 50px;
+width: auto;
+margin: 20px;
 }
