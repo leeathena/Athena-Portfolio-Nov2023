@@ -1,7 +1,7 @@
 :root {
     --light-beige: #F0F1ED;
     --medium-green: #808D63 ;
-    --dark-green: #4F6034
+    --dark-green: #4F6034;
 }
 
 
@@ -61,7 +61,7 @@ h2 {
     font-size: 1.5rem;
     text-decoration: underline;
     text-decoration-thickness: 10px;
-    text-decoration-color: #808d63;
+    text-decoration-color: var(--medium-green);
     line-height: 2.5;
 }
 
