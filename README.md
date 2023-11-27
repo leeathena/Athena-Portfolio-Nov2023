@@ -20,4 +20,4 @@ I used reset.css file from bootcamp/class-repo/06-stu-css-variable
 ![screencapture-file-C-bootcamp-Athena-Portfolio-Nov2023-index-html-2023-11-27-01_15_43](https://github.com/leeathena/Athena-Portfolio-Nov2023/assets/149600986/e787be55-c6c6-43ca-935d-7506fbd14913)
 
 ## Deployed Page
-<strong> [Deployed page]() </strong>
+<strong> [Deployed page](https://leeathena.github.io/Athena-Portfolio-Nov2023/) </strong>
